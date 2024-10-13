@@ -3,13 +3,13 @@ import profilePic from "../assets/sayiamaroraimage.png";
 function Hero() {
   return (
     <div className="pb-4 lg:mb-36">
-      <div className="flex flex-wrap lg:flex-row-reverse">
-        <div className="w-full lg:w-1/2 lg:pl-10">
+      <div className="flex flex-wrap lg:flex-row-reverse ">
+        <div className="flex justify-center w-full lg:w-1/2 lg:pl-10">
           <div className="flex justify-center rounded-3xl bg-gray-800 w-[30rem] hover:scale-[1.05] ease-in-out transition-all duration-500">
             <img
               src={profilePic}
               alt="Sayiam Arora"
-              className=" h-[34rem] rounded-3xl"
+              className="h-[20rem] lg:h-[34rem] rounded-3xl"
             />
           </div>
         </div>
