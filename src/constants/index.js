@@ -40,32 +40,39 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Flight Prediction",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "This project involves developing a machine learning model to forecast flight prices based on historical data. It uses features like departure time, airline, and duration for accurate predictions. The model helps users make informed decisions when booking flights.",
+    technologies: [
+      "Python",
+      "Jupyter NoteBook",
+      "Matplotlib",
+      "Numpy",
+      "Pandas",
+      "Seaborn",
+    ],
   },
   {
-    title: "Task Management App",
+    title: "Bank Customer Analysis",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "project uses Tableau Desktop and Tableau Prep to clean, analyze, and visualize customer data. It includes creating interactive dashboards and stories to uncover insights and trends in customer behavior. The project aids in making data-driven decisions for better customer management.",
+    technologies: ["Tableau Desktop", "Tableau Prep Builder"],
   },
   {
-    title: "Portfolio Website",
+    title: "SMS And Spam Classifier",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This project involves building a machine learning model using Google Colab to distinguish between spam and legitimate messages. It includes preprocessing text data, feature extraction, and training a classification model. This helps in automatically filtering unwanted spam messages from inboxes.",
+    technologies: ["Python", "Google Colab", "Pandas", "Numpy", "Scikit-Learn"],
   },
   {
-    title: "Blogging Platform",
+    title: "SAR'S Restaurant",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This project involves creating a user-friendly site with a home page, gallery, menu section, and contact us page for a realistic and immersive experience. It showcases the restaurant’s offerings and ambiance through visual content. The project aims to enhance user engagement and provide essential information",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
