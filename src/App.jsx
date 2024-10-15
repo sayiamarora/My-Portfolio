@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import Technologies from "./Components/Technologies";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Technologies />
         <Projects />
         <Experience />
+        <Contact />
       </div>
     </div>
   );
